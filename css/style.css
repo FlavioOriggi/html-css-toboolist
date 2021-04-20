@@ -1,79 +1,109 @@
 
-
 header{
+
     height: 120px;
-    background-color: red;
-    
+    background-color: white;
+
 }
 
 #logo{
     height: 80px;    
-    margin-top: 20px;
+    
+    vertical-align: middle;
+}
+
+body{
+    background-color: grey;
 }
 
 .logo-text{
     font-size: 50px;
     font-weight: bolder;
-     
+    line-height: 120px;
+    vertical-align: middle;
 }
 
-main{
-    
+.buttonlist{
+    background-color: #086ff5;
+    border: none;
+    color: rgb(253, 253, 253);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
 }
 
 .sezioneadd{
-    background-color: blue;
+    background-color: white;
     height: 50px;
     width: 700px;
-    border-radius: 2%;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    margin-bottom: 1px;
            
 }
 
 .lista{
-    background-color: blue;
+    background-color: white;
     height: 500px;
     width: 700px;
-    border-radius: 2%;          
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.addtask{
-    outline: none;
-    cursor: pointer;
+.bordeaux{
+    background-color: blueviolet;
+}
+
+.verdeacqua{
+    background-color: rgb(54, 163, 130);
+}
+
+.arancio{
+    background-color: rgb(204, 136, 9);
+}
+
+.pink{
+    background-color:rgb(180, 75, 93);
+}
+
+.green{
+    background-color:rgb(117, 170, 25);
+}
+
+
+
+.addbutton{
+    background-color: #08d9f5;
+    border: none;
+    color: rgb(253, 253, 253);
+    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    font: bold 12px Arial, Helvetica, sans-serif;
-    color: #fff;
-    padding: 10px 20px;    
-    background: #0095cd;
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
     border-radius: 8px;
 }
 
-.addsection{
-    outline: none;
-    cursor: pointer;
+.check{
+    height: 15px;
+    width: 15px;
     text-align: center;
-    text-decoration: none;
-    font: bold 12px Arial, Helvetica, sans-serif;
-    color: darkgrey;
-    padding: 10px 20px;    
-    background: white;
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-    border-radius: 8px;
+    line-height: 15px;
+    border-radius: 50%;
+    color: green;
+    border: 1px solid green;
+    display: inline-block;
+    margin-right: 15px;
 }
 
-.editorial{
-    outline: none;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    font: bold 12px Arial, Helvetica, sans-serif;
-    color: #fff;
-    padding: 10px 20px;    
-    background: #0095cd;
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-    border-radius: 8px;
-}
+
