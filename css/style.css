@@ -17,15 +17,22 @@ header{
      
 }
 
-/* body{
-    background-color: yellow;
-} */
+main{
+    
+}
 
 .sezioneadd{
     background-color: blue;
     height: 50px;
     width: 700px;
     border-radius: 2%;
-    margin: auto;
-    
+           
+}
+
+.lista{
+    background-color: blue;
+    height: 500px;
+    width: 700px;
+    border-radius: 2%;
+          
 }
