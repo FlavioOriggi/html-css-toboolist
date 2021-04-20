@@ -83,12 +83,19 @@ body{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 10px;
+    font-weight: bold;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 8px;
 }
 
+.white{
+    background-color: white;
+    color: darkgrey;
+    border: 1px solid darkgrey;;
+
+}
 .check{
     height: 15px;
     width: 15px;
